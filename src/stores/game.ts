@@ -3,10 +3,10 @@ import React from 'react';
 
 export class GameStore {
   constructor() {
-    makeObservable(this);
+    makeObservable(this, {
+      diceVal: false,
+    });
   }
-
-  updates: string[] = []
 
   diceVal: number[] = []
 }

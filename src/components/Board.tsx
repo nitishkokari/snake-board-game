@@ -1,6 +1,5 @@
 import {action, observable} from "mobx"
 import React from "react"
-import Dice from 'react-dice-roll';
 import { generateMatrix, movePlayer, rollDice, updateGameStatus } from '../lib/helpers'
 
 import { useStore } from '../store'
